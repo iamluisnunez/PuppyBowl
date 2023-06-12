@@ -107,6 +107,8 @@ const renderAllPlayers = async () => {
         <h2>${players.name}</h2>
         <p>${players.breed}</p>
         <p>${players.status}</p>
+        <img width="200" height="200" src=${players.imageUrl}>
+        <br>
         <button class="details-button" data-id="${players.id}">See Details</button>
         <button class="delete-button" data-id="${players.id}">Delete</button>
       `;
